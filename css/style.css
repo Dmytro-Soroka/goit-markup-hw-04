@@ -106,16 +106,14 @@ ul {
 .main-hero {
   margin-left: auto;
   margin-right: auto;
+  padding-bottom: 94px;
 }
 
 .hero {
   height: 600px;
-  /*width: 1600px;*/
 
   padding-top: 200px;
   padding-bottom: 200px;
-  /*padding-left: 452px;
-  padding-right: 452px;*/
 
   background-image: linear-gradient(
       to right,
@@ -126,10 +124,6 @@ ul {
 }
 
 .hero-container {
-  /*display: flex;
-  align-self: center;
-  justify-content: center;
-  flex-wrap: wrap;*/
   text-align: center;
 }
 
@@ -150,7 +144,6 @@ ul {
 .hero-object {
   font-size: 16px;
   line-height: 1.875;
-  /*align-items: center;*/
   text-align: center;
   letter-spacing: 0.06em;
   color: var(--special-text-color);
@@ -159,14 +152,10 @@ ul {
 
 .hero-button {
   display: inline-block;
-  /*margin-left: 248px;
-  margin-right: 248px;*/
+
   padding: 10px 32px;
 
   min-width: 200px;
-  /*height: 50px;
-  left: 700px;
-  top: 430px;*/
 
   text-align: center;
 
@@ -193,19 +182,25 @@ ul {
 
 .skills-container {
   height: 251px;
-  padding-bottom: 94px;
+  margin-bottom: 94px;
 }
 
 .skills-item {
-  height: 270px;
-  width: 251px;
+  height: 251px;
+  width: 270px;
 }
 
-.skills-img {
-  padding-top: 25px;
-  padding-bottom: 25px;
-  padding-left: 102px;
-  padding-right: 102px;
+.skills-item::before {
+  content: " ";
+  display: block;
+
+  height: 120px;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+  background-image: ;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .skills .skills-item:not(:last-child) {
@@ -213,6 +208,7 @@ ul {
 }
 
 .skills-title {
+  margin-top: 30px;
   font-size: 14px;
   line-height: 1.143;
   letter-spacing: 0.03em;
