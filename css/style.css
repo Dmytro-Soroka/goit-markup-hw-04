@@ -358,6 +358,7 @@ ul {
 .clients-link:hover,
 .clients-link:focus {
   fill: var(--accent-text-color);
+  border: 1px solid #2196f3x;
 }
 
 /*footer*/
@@ -415,6 +416,9 @@ ul {
 }
 
 .footer-contacts {
+  height: 44px;
+  width: 206px;
+
   display: flex;
   align-items: center;
   padding-left: 0px;
@@ -423,7 +427,32 @@ ul {
 }
 
 .footer-contacts .footer-item:not(:last-child) {
-  margin-right: 30px;
+  margin-right: 10px;
+}
+
+.footer-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 44px;
+  width: 44px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  fill: #ffffff;
+}
+
+.footer-link:hover,
+.footer-link:focus {
+  height: 44px;
+  width: 44px;
+  background-color: var(--accent-text-color);
+  border-radius: 50%;
+  fill: var(--special-text-color);
+}
+
+.footer-link-ikon {
+  height: 20px;
+  width: 20px;
 }
 
 .footer-subscribe {
@@ -448,6 +477,7 @@ ul {
   padding-bottom: 10px;
   padding-left: 29px;
   padding-right: 29px;
+  border: none;
 
   background-color: var(--accent-text-color);
 }
