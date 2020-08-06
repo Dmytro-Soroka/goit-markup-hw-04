@@ -358,7 +358,7 @@ ul {
 .clients-link:hover,
 .clients-link:focus {
   fill: var(--accent-text-color);
-  border: 1px solid #2196f3x;
+  border: 1px solid #2196f3;
 }
 
 /*footer*/
