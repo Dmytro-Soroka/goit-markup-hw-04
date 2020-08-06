@@ -187,6 +187,10 @@ ul {
 .skills-icon {
   height: 120px;
   width: 270px;
+  padding-top: 25px;
+  padding-left: 100px;
+  padding-bottom: 25px;
+  padding-right: 100px;
 
   background-color: #f5f4fa;
   border-radius: 4px;
@@ -277,6 +281,26 @@ ul {
   border-radius: 0px 0px 4px 4px;
 }
 
+.command-item-icon {
+  height: 44px;
+  width: 44px;
+  fill: #afb1b8;
+}
+
+.command-item-icon:hover,
+.command-item-icon:focus {
+  height: 44px;
+  width: 44px;
+  background-color: var(--accent-text-color);
+  border-radius: 50%;
+  fill: var(--special-text-color);
+}
+
+.command-icon {
+  height: 20px;
+  width: 20px;
+}
+
 .command-photo {
   width: 270px;
   height: 260px;
@@ -303,12 +327,10 @@ ul {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  height: 44px;
   padding-left: 32px;
   padding-right: 32px;
-}
-
-.command-item .command-item-mes:not(:last-child) {
-  margin-right: 10px;
+  margin-top: 16px;
 }
 
 /*clients container*/
@@ -321,6 +343,15 @@ ul {
   align-items: center;
   justify-content: space-around;
   padding-left: 0;
+}
+
+.clients-items {
+  height: 90px;
+  width: 170px;
+
+  border: 1px solid #afb1b8;
+  box-sizing: border-box;
+  border-radius: 4px;
 }
 
 .clients .clients-items:not(:last-child) {
