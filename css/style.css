@@ -184,12 +184,15 @@ ul {
   margin-bottom: 94px;
 }
 
-.skills-item {
-  height: 251px;
+.skills-icon {
+  height: 120px;
   width: 270px;
+
+  background-color: #f5f4fa;
+  border-radius: 4px;
 }
 
-.skills-item::before {
+/*.skills-item::before {
   content: " ";
   display: block;
 
@@ -199,7 +202,7 @@ ul {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-}
+}*/
 
 .skills .skills-item:not(:last-child) {
   margin-right: 30px;
@@ -269,6 +272,9 @@ ul {
 .command-item {
   width: 270px;
   height: 422px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .command-photo {
@@ -296,11 +302,12 @@ ul {
 .command-contacts {
   display: flex;
   align-items: center;
+  justify-content: space-around;
   padding-left: 32px;
   padding-right: 32px;
 }
 
-.command-contcts .command-item:not(:last-child) {
+.command-item .command-item-mes:not(:last-child) {
   margin-right: 10px;
 }
 
@@ -449,6 +456,7 @@ ul {
   width: 370px;
   margin-right: 30px;
   margin-bottom: 30px;
+  border: 1px solid #eeeeee;
 }
 
 .portfolio-element:nth-child(3n) {
