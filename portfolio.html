@@ -13,7 +13,7 @@
   </head>
   <body>
     <!--header container-->
-    <header>
+    <header class="header">
       <div class="container">
         <nav class="main-nav">
           <a class="logo" href="./index.html" lang="en">
@@ -36,21 +36,23 @@
           <!--contacts container-->
           <ul class="site-nav-contacts">
             <li>
-              <a href="mailto: info@example.com">
-                <img
-                  src="./images/index-images/header-images/envelope.svg"
-                  alt="mail"
-                />
-                info@devstudio.com
+              <a class="header-contacts-link" href="mailto: info@example.com">
+                <svg class="header-icon" wight="16" height="12">
+                  <use
+                    href="./images/index-images/symbol-defs.svg#envelope"
+                  ></use>
+                </svg>
+                <span class="header-contacts-text">info@example.com</span>
               </a>
             </li>
             <li>
-              <a href="tel: +380991111111">
-                <img
-                  src="./images/index-images/header-images/smartphone.svg"
-                  alt="phone"
-                />
-                +38 096 111 11 11
+              <a class="header-contacts-link" href="tel: +380991111111">
+                <svg class="header-icon" wight="10" height="16">
+                  <use
+                    href="./images/index-images/symbol-defs.svg#smartphone"
+                  ></use>
+                </svg>
+                <span class="header-contacts-text">+38 096 111 11 11</span>
               </a>
             </li>
           </ul>
@@ -240,9 +242,9 @@
     </main>
 
     <!--footer container-->
-    <footer class="container footer">
+    <footer class="footer">
       <!--adress container-->
-      <div class="footer-container">
+      <div class="container footer-container">
         <section class="footer-section footer-info">
           <h2 lang="en" class="logo footer-logo">
             <span class="logo-half">Web</span>
