@@ -131,7 +131,7 @@ ul {
 
 .hero {
   height: 600px;
-  max-width: 1600px;
+  width: 1600px;
 
   padding-top: 200px;
   padding-bottom: 200px;
@@ -533,6 +533,7 @@ ul {
   flex-wrap: wrap;
   padding-left: 0px;
   margin-top: 34px;
+  margin-bottom: 94px;
 }
 
 .portfolio-element {
