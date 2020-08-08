@@ -511,7 +511,9 @@ ul {
 .portfolio-buttons {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
+
+  height: 54px;
 }
 
 .portfolio-buttons .portfolio-buttons-item:not(:last-child) {
