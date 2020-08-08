@@ -514,6 +514,9 @@ ul {
   align-items: flex-start;
 
   height: 54px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-left: 0px;
 }
 
 .portfolio-buttons .portfolio-buttons-item:not(:last-child) {
